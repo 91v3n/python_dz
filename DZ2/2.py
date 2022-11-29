@@ -2,6 +2,8 @@
 # Не используйте функцию math.factorial.
 
 res = 1
+list=[]
 for i in range(1, int(input('Введите число '))+1):
     res *= i
-    print (res)
+    list.append(res)
+print(list)
