@@ -1,0 +1,1 @@
+print(' '.join(filter(lambda x: 'world' not in x, 'Hello world hello World'.split())))
